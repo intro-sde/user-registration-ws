@@ -68,7 +68,7 @@ public class CheckUser  {
 	public static List<String> listUsers() {
 		String result="User in list users";
 		String uri =
-				"https://sde-storage-ws.herokuapp.com/rdb/users";
+				"https://sde-storage-ws.herokuapp.com/rdb/users/all";
 		URL url;
 		List<String> list = new LinkedList<>();
 		try {
